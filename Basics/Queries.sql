@@ -5,7 +5,7 @@ Select * FROM CITY
 
 /*2*/
 /* Query all columns for a city in CITY with the ID 1661.
-The CITY table is described as follows: */
+The CITY table is described in Readme file. */
 
 
 SELECT * FROM CITY 
