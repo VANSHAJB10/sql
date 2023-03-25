@@ -10,12 +10,12 @@ SELECT * FROM CITY
 WHERE ID= '1661';
 
 
-/*3*/ 
+/*3*/  --> Selecting two or more rows
 /* Query a list of District and population in CITY table. */
 SELECT DISTRICT,POPULATION FROM CITY;
 
 
-/*4*/
+/*4*/ --> [Selecting distinct values] + [Arithmetic Operation]
 /* Query a list of CITY names from STATION for cities that have an even ID number. Print the results in any order, but exclude duplicates from the answer.*/
 SELECT DISTINCT CITY FROM STATION /* DISTINCT IS USED TO REMOVE COMMON TERMS */
-WHERE MOD(ID,2)=0;
+WHERE MOD(ID,2)=0;                /* Not (id % 2 == 0)
