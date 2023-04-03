@@ -10,3 +10,4 @@
 * The SELECT TOP clause is used to specify the number of records to return.
 
 * SELECT TOP 3 * FROM Customers;  /* Selects the first three records from the "Customers" table */
+* SELECT TOP 50 PERCENT * FROM Customers; /* selects the first 50% of the records from the "Customers" table */
