@@ -15,6 +15,7 @@
 /*  Cloning Tables */
 * There may be a situation when you just want to create an exact copy or clone of an existing table to test or perform something without affecting the original table.
 
+Steps to do it -->
 * 'SHOW CREATE TABLE' command to get a CREATE TABLE statement that specifies the source table's structure, indexes, and all.
 * Modify the statement to change the table name to that of the clone table and execute the statement. This way you will have an exact clone table.
 * Optionally, if you need the table contents copied as well, issue an INSERT INTO or a SELECT statement too
